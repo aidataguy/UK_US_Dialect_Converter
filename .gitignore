@@ -1,0 +1,120 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_metadata/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Trained Models Directory (separate from source code)
+/models/*
+!/models/.gitkeep
+
+# Data directories
+/data/processed/*
+!/data/processed/.gitkeep
+/data/raw/*
+!/data/raw/.gitkeep
+
+# Model checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.model
+*.safetensors
+
+# Logs and databases
+*.log
+*.sqlite
+logs/
+wandb/
+tensorboard/
+runs/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Distribution / packaging
+*.tar.gz
+*.zip
+*.rar
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.coverage.*
+coverage.xml
+*.cover
+
+# Documentation
+docs/_build/
+site/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Large files
+*.csv
+*.json
+*.jsonl
+*.txt
+!requirements.txt
+*.pkl
+*.joblib
+
+# Exceptions
+!data/raw/sample_data.csv
+!data/raw/train.csv
+!data/raw/val.csv
+!data/raw/test.csv
